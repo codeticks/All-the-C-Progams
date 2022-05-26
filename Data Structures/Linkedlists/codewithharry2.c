@@ -42,5 +42,10 @@ int main(){
 
     struct node* newNode = insertFront(first,1); //updating the first node pointer.
 
-    traverse(newNode); // so now the first struct node* points to the newly cooked node newNode, and we will start printing from there.
+    traverse(newNode);
+     // so now the first struct node* points to the newly cooked node newNode, and we will start printing from there only not after or before that note.
+
+     
+
+
 }

@@ -1,0 +1,15 @@
+int z, new_number;
+    scanf("%d", &n);
+    
+    int *p_numbers = (int*)malloc(z * sizeof(int));
+    int i = 0;
+    while (i < z) {
+        scanf("%d", &new_number);
+        *(p_numbers + i) = new_number;
+        i++;
+    }
+    
+    while (i >= 1) {
+        printf("%d ", *(p_numbers + --i));
+    }
+    free(p_numbers);
